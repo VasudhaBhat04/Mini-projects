@@ -14,8 +14,6 @@ function calculate(){
     }
     catch(error){
         display.value="ERROR";
-    }
-    
-    
+    }  
 }
 
