@@ -1,0 +1,54 @@
+SOME BASIC THEORY OF HTML, CSS, JAVASCRIPT
+HTML — Structure of a webpage
+HTML (HyperText Markup Language) defines the content and structure. 
+
+
+<!DOCTYPE html>      <!-- Declaration comment -->
+<html>                
+  <head>              
+    <title>My Page</title>
+  </head>
+  <body>               
+    <h1>Hello World</h1>
+    <p>This is a paragraph.</p>
+    <button>Click Me</button>
+    <input type="text" placeholder="Type here..." />
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </body>
+</html>
+
+IMPORTANT TAGS
+<html> HTML tag pairs -- open & closing
+<head>    Head tags - info about webpage , titles & subtitles
+<title> Title of your webpage
+<body> display to user
+<h1>–<h6> (headings) 
+<p> (paragraph) 
+<div> (container) 
+<button>
+<input>
+<br> line space between
+<hr> horizontal space
+<ul>/<li> (lists).
+
+HYPERLINKS (anchor tag)
+<a href="someref.com" target=_blank title="A messgae dispalyed when you hover your hyperlink"></a>
+
+target="_blank" tells the browser to open a new tab.
+target="_self" tells the browser to open link in same tab..
+When using target="_blank", always add rel="noopener noreferrer" for security — it prevents the new tab from accessing your page's data.
+
+<a href="https://google.com" title="Click to open Google">Visit Google</a>
+
+<abbr title="HyperText Markup Language">HTML</abbr> //Abbrevation hover
+
+IMAGE LINK
+<a href="https://www.google.com">
+  <img src="logo.png" height= width= alt="Google Logo" />
+</a>
+
+ANOTHER HTML 
+<a href="somepage.html"></a>
