@@ -14,10 +14,10 @@ function createWindow() {
     }
   });
 
-  // FIX: This safely resolves paths on any operating system folder layout
+ 
   win.loadFile(path.join(__dirname, 'index.html'));
 
-  // ADD: Handles the dynamic minimize command sent from script.js
+ 
   ipcMain.on('minimize-app', () => {
     win.minimize();
   });

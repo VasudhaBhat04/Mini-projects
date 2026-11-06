@@ -23,13 +23,13 @@ minimizeBtn.addEventListener('click', () => { ipcRenderer.send('minimize-app'); 
 function renderUI() {
   buttonGroup.innerHTML = '';
   
-  // Clear existing state class names and map the fresh modifier state safely
+
   catBox.className = 'cat-box'; 
 
   switch (currentState) {
     case STATES.BEFORE:
       catBox.classList.add('before');
-      timerDisplay.innerText = "START THE STUDY TIMER";
+      timerDisplay.innerText = "START THE STUDY TIMER ^..^";
       
       const startBtn = document.createElement('button');
       startBtn.className = 'action-btn';
@@ -58,7 +58,7 @@ function renderUI() {
 
     case STATES.AFTER:
       catBox.classList.add('after');
-      timerDisplay.innerText = "WELL DONE!!";
+      timerDisplay.innerText = "WELL DONE ^..^ !!";
       
       const focusBtn = document.createElement('button');
       focusBtn.className = 'action-btn';

@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 
-/* Common Container Layout */
+
 .widget-container {
   background-color: #cbd5e1; 
   width: 380px;
@@ -82,26 +82,26 @@ body {
   background-size: contain;
 }
 
-/* State 1: Before standard timer start */
+
 .cat-box.before {
   background-image: url('assets/cat-before.svg.png'); 
 }
 
-/* State 2: During active live focus countdown */
+
 .cat-box.during {
   background-image: url('assets/cat-during.svg.png'); 
 }
 
-/* State 3: After complete sequence termination */
+
 .cat-box.after {
   background-image: url('assets/cat-after.svg.png'); 
 }
 
 
 
-/* Status / Timer Font Alignment */
+
 .status-text {
-  font-size: 32px; /* Emphasized size for pixel/bold timer representation */
+  font-size: 24px; 
   font-weight: 800;
   color: #555555;
   text-transform: uppercase;
@@ -109,7 +109,7 @@ body {
   text-align: center;
 }
 
-/* Flex Container for Action Buttons */
+
 .button-group {
   display: flex;
   justify-content: center;
@@ -117,7 +117,7 @@ body {
   width: 100%;
 }
 
-/* Uniform Styling for All Action Buttons */
+
 .action-btn {
   background-color: #cbd5e1;
   color: #ffffff;
