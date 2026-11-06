@@ -29,7 +29,7 @@ function renderUI() {
   switch (currentState) {
     case STATES.BEFORE:
       catBox.classList.add('before');
-      timerDisplay.innerText = "START THE STUDY TIMER ^..^";
+      timerDisplay.innerText = "START THE STUDY TIMER ";
       
       const startBtn = document.createElement('button');
       startBtn.className = 'action-btn';
@@ -58,7 +58,7 @@ function renderUI() {
 
     case STATES.AFTER:
       catBox.classList.add('after');
-      timerDisplay.innerText = "WELL DONE ^..^ !!";
+      timerDisplay.innerText = "WELL DONE !!";
       
       const focusBtn = document.createElement('button');
       focusBtn.className = 'action-btn';
